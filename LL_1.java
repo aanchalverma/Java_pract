@@ -10,6 +10,11 @@ public class Main
       	System.out.print("First el:"+ll.getFirst());
       	System.out.print("\nLast el:"+ll.getLast());
       
+      	//add at first and last
+      	ll.addFirst("Hello");
+      	ll.addLast("Bye");
+      	System.out.print("\nLinkedList : "+ll);
+      
       
     }
 

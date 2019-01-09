@@ -15,6 +15,11 @@ public class Main
       	ll.addLast("Bye");
       	System.out.print("\nLinkedList : "+ll);
       
+      	//search element
+      	int a = ll.indexOf("20");
+      	System.out.print("\nIndex : "+a);
+      
+      
       
     }
 
